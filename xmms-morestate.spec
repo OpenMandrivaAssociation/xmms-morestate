@@ -11,6 +11,7 @@ Patch: xmms-morestate-1.2-no-x86.patch
 URL: http://sourceforge.net/projects/xmms-morestate/
 License: GPL
 Group: Sound
+BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires: libxmms-devel
 Requires: xmms
 Provides: xmms_morestate
