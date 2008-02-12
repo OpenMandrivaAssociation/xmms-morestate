@@ -18,7 +18,6 @@ Provides: xmms_morestate
 Obsoletes: xmms_morestate
 
 %description
-
 The XMMS Morestate/Autoplay plugin restores some additional settings:
 volume (esd only), song time, and playing/paused status.
 
