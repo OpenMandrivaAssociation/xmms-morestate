@@ -1,6 +1,6 @@
 %define name xmms-morestate
 %define version 1.2
-%define release %mkrel 10
+%define release %mkrel 11
 
 Summary: Maintain xmms state information
 Name: %{name}
@@ -9,7 +9,7 @@ Release: %{release}
 Source0: http://prdownloads.sourceforge.net/xmms-morestate/%{name}-%{version}.tar.bz2
 Patch: xmms-morestate-1.2-no-x86.patch
 URL: http://sourceforge.net/projects/xmms-morestate/
-License: GPL
+License: GPLv2+
 Group: Sound
 BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires: libxmms-devel
