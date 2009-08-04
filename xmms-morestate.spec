@@ -1,6 +1,6 @@
 %define name xmms-morestate
 %define version 1.2
-%define release %mkrel 11
+%define release %mkrel 12
 
 Summary: Maintain xmms state information
 Name: %{name}
