@@ -13,6 +13,7 @@ License: GPLv2+
 Group: Sound
 BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires: libxmms-devel
+BuildRequires: automake
 Requires: xmms
 Provides: xmms_morestate
 Obsoletes: xmms_morestate
