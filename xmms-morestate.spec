@@ -1,6 +1,6 @@
 %define name xmms-morestate
 %define version 1.2
-%define release %mkrel 12
+%define release %mkrel 13
 
 Summary: Maintain xmms state information
 Name: %{name}
@@ -28,6 +28,7 @@ last XMMS-Session stopped.
 %prep
 %setup -q
 %patch -p1
+libtoolize --install --force
 aclocal
 autoconf
 automake
