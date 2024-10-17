@@ -8,7 +8,7 @@ Version: %{version}
 Release: %{release}
 Source0: http://prdownloads.sourceforge.net/xmms-morestate/%{name}-%{version}.tar.bz2
 Patch: xmms-morestate-1.2-no-x86.patch
-URL: http://sourceforge.net/projects/xmms-morestate/
+URL: https://sourceforge.net/projects/xmms-morestate/
 License: GPLv2+
 Group: Sound
 BuildRoot: %{_tmppath}/%{name}-buildroot
