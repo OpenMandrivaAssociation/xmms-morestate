@@ -12,6 +12,9 @@ URL: https://sourceforge.net/projects/xmms-morestate/
 License: GPLv2+
 Group: Sound
 BuildRoot: %{_tmppath}/%{name}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
 BuildRequires: libxmms-devel
 BuildRequires: automake
 Requires: xmms
